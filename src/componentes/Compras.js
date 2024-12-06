@@ -25,7 +25,7 @@ const Compras = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/stock');
+        const response = await axios.get('https://inespro-back-1.onrender.com/api/stock');
         console.log("soy los datos de la api", response.data);
         
         dispatch(setExcelData(response.data));
