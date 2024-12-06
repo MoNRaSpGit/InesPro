@@ -28,7 +28,7 @@ const Stock = () => {
 
     try {
       // Enviar los datos actualizados al backend
-      const response = await axios.put('http://localhost:5000/api/stock/update', validatedData);
+      const response = await axios.put('https://inespro-back-1.onrender.com/api/stock/update', validatedData);
       if (response.status === 200) {
         toast.success('Datos actualizados exitosamente.');
 
@@ -36,7 +36,7 @@ const Stock = () => {
         console.log('Datos actualizados en la base de datos:', validatedData);
 
         // Sincronizar con la base de datos y actualizar el store global
-        const fetchUpdatedData = await axios.get('http://localhost:5000/api/stock');
+        const fetchUpdatedData = await axios.get('https://inespro-back-1.onrender.com/api/stock');
         dispatch(setExcelData(fetchUpdatedData.data));
 
         // Mostrar log con los datos actualizados en el store global

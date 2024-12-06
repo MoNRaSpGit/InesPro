@@ -51,7 +51,7 @@ const UpExcel = () => {
           .filter((row) => row.mes01 || row.mes02);
 
         // Hacer la petición POST al servidor para guardar los datos en la base de datos
-        await axios.post('http://localhost:5000/api/stock', extractedData);
+        await axios.post('https://inespro-back-1.onrender.com/api/stock', extractedData);
 
         toast.success('Archivo procesado y datos guardados en la base de datos exitosamente.', {
           position: 'top-right',
@@ -96,7 +96,7 @@ const UpExcel = () => {
 
     try {
       // Hacer la petición DELETE al servidor para eliminar todos los datos
-      await axios.delete('http://localhost:5000/api/stock/deleteAll');
+      await axios.delete('https://inespro-back-1.onrender.com/api/stock/deleteAll');
 
       toast.success('Todos los datos de stock fueron eliminados exitosamente.', {
         position: 'top-right',
