@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/InesPro/static/css/main.ae4c51c9.css",
-    "main.js": "/InesPro/static/js/main.d0a355e9.js",
+    "main.js": "/InesPro/static/js/main.63c7c882.js",
     "static/js/453.361c7e18.chunk.js": "/InesPro/static/js/453.361c7e18.chunk.js",
     "index.html": "/InesPro/index.html",
     "main.ae4c51c9.css.map": "/InesPro/static/css/main.ae4c51c9.css.map",
-    "main.d0a355e9.js.map": "/InesPro/static/js/main.d0a355e9.js.map",
+    "main.63c7c882.js.map": "/InesPro/static/js/main.63c7c882.js.map",
     "453.361c7e18.chunk.js.map": "/InesPro/static/js/453.361c7e18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae4c51c9.css",
-    "static/js/main.d0a355e9.js"
+    "static/js/main.63c7c882.js"
   ]
 }
