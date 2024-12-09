@@ -72,7 +72,7 @@ const Ximena = () => {
                 <td>{row.cantidadMaxima}</td>
                 <td>{row.cantidadPedida}</td>
                 <td>{row.pendiente}</td>
-                <td>{row.fechaEnvio || 'No definida'}</td>
+                <td style={{ width: '130px' }}>{row.fechaEnvio || 'No definida'}</td>
                 <td>
                   <input
                     type="text"

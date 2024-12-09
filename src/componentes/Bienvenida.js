@@ -5,8 +5,8 @@ import UpExcel from './UpExcel';
 const Bienvenida = () => {
   return (
     <div>
-      <h1>Bienvenida</h1>
-      <UpExcel></UpExcel>
+      <h1>Bienvenida Ines , como estas hoy ?</h1>
+      
     </div>
   );
 };
